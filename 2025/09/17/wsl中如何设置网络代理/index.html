@@ -140,7 +140,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:published_time" content="2025-09-17T07:36:49.000Z">
-<meta property="article:modified_time" content="2025-09-17T07:46:08.758Z">
+<meta property="article:modified_time" content="2025-09-17T08:34:51.626Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -372,8 +372,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-09-17 15:46:08</span>
-            <span class="mobile">2025-09-17 15:46:08</span>
+            <span class="desktop">2025-09-17 16:34:51</span>
+            <span class="mobile">2025-09-17 16:34:51</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -428,8 +428,14 @@
 </ul>
 <div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># 输出 default via 172.18.176.1 dev eth0 proto kernel</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><ul>
-<li><p>打开 clash：检查一下 WSL 的路由 IP 对不对<br><img  
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><h3 id="Clash-设置"><a href="#Clash-设置" class="headerlink" title="Clash 设置"></a>Clash 设置</h3><ul>
+<li><p>打开 clash：</p>
+</li>
+<li><p>刷新订阅</p>
+</li>
+<li><p>选择一个网络快的的代理</p>
+</li>
+<li><p>检查一下 WSL 的路由 IP 对不对<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="/./images/wsl/Pasted%20image%2020250917130054.png"
@@ -454,6 +460,11 @@
 </ul>
 </li>
 </ul>
+<h3 id="wsl-设置"><a href="#wsl-设置" class="headerlink" title="wsl 设置"></a>wsl 设置</h3><ul>
+<li>注意这个也是临时的，关掉这个窗口之后就失效的指令。。</li>
+</ul>
+<div class="code-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export http_proxy=&quot;http://172.18.176.1:7890&quot;</span><br><span class="line">export https_proxy=&quot;http://172.18.176.1:7890&quot; # 注意这行也要设置！</span><br></pre></td></tr></table></figure></div>
+
 <h2 id="检验"><a href="#检验" class="headerlink" title="检验"></a>检验</h2><p>为确保我们的网络是连上外网的，我们需要先检查 Windows 中是否开了代理</p>
 <h3 id="检查-Windows"><a href="#检查-Windows" class="headerlink" title="检查 Windows"></a>检查 Windows</h3><p>直接用浏览器试，别用这个方法，搞得我老是突然上不了网，不知道是不是它的原因。</p>
 <p>首先我们先检查 Windows 下代理是否开启，当然可以通过访问 YouTube 之类的查看，也可以用下面的方式，使用 cmd 查看。</p>
@@ -497,7 +508,7 @@
         
             <li>
                 <strong>Updated at
-                    :</strong> 2025-09-17 15:46:08
+                    :</strong> 2025-09-17 16:34:51
             </li>
         
         <li>
@@ -593,7 +604,7 @@
 	<div class="post-toc">
 		<div class="toc-title">On this page</div>
 		<div class="page-title">wsl中如何设置网络代理</div>
-		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#WSL-%E4%B8%AD%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"><span class="nav-text">WSL 中代理设置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87"><span class="nav-text">准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B-WSL-%E7%9A%84-%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1"><span class="nav-text">查看 WSL 的 默认路由</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text">设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E9%AA%8C"><span class="nav-text">检验</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5-Windows"><span class="nav-text">检查 Windows</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5-WSL"><span class="nav-text">检查 WSL</span></a></li></ol></li></ol></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#WSL-%E4%B8%AD%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"><span class="nav-text">WSL 中代理设置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87"><span class="nav-text">准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B-WSL-%E7%9A%84-%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1"><span class="nav-text">查看 WSL 的 默认路由</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-text">设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Clash-%E8%AE%BE%E7%BD%AE"><span class="nav-text">Clash 设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#wsl-%E8%AE%BE%E7%BD%AE"><span class="nav-text">wsl 设置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E9%AA%8C"><span class="nav-text">检验</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5-Windows"><span class="nav-text">检查 Windows</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5-WSL"><span class="nav-text">检查 WSL</span></a></li></ol></li></ol></li></ol>
 
 	</div>
 </div>
