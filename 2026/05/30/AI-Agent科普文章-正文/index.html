@@ -123,7 +123,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://sing-041.github.io/2026/05/30/wsl 安装与管理/"/>
+    <link rel="canonical" href="https://sing-041.github.io/2026/05/30/ai-agent科普文章-正文/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -133,18 +133,17 @@
         
         <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="WSL 安装与管理">
-<meta property="og:url" content="https://sing-041.github.io/2026/05/30/WSL%20%E5%AE%89%E8%A3%85%E4%B8%8E%E7%AE%A1%E7%90%86/index.html">
+<meta property="og:title" content="现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？">
+<meta property="og:url" content="https://sing-041.github.io/2026/05/30/AI-Agent%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0-%E6%AD%A3%E6%96%87/index.html">
 <meta property="og:site_name" content="LinSing の 博客">
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://sing-041.github.io/images/redefine-og.webp">
 <meta property="article:published_time" content="2026-05-30T06:27:08.000Z">
-<meta property="article:modified_time" content="2026-07-08T01:35:52.111Z">
+<meta property="article:modified_time" content="2026-07-08T01:49:30.030Z">
 <meta property="article:author" content="LinSing">
-<meta property="article:tag" content="WSL">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="Windows">
+<meta property="article:tag" content="AI Agent">
+<meta property="article:tag" content="LLM">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://sing-041.github.io/images/redefine-og.webp">
     
@@ -158,7 +157,7 @@
     
     <title>
         
-            WSL 安装与管理 | LinSing の 博客
+            现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？ | LinSing の 博客
         
     </title>
 
@@ -429,7 +428,7 @@
 		<div class="article-title relative w-full">
 			
 			<div class="w-full flex items-center pt-6 justify-start">
-				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">WSL 安装与管理</h1>
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</h1>
 			</div>
 			
 		</div>
@@ -457,8 +456,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2026-07-08 09:35:52</span>
-            <span class="mobile">2026-07-08 09:35:52</span>
+            <span class="desktop">2026-07-08 09:49:30</span>
+            <span class="mobile">2026-07-08 09:49:30</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -472,7 +471,7 @@
                     
                         
                         <li>
-                            <a href="/categories/%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/">系统配置</a>&nbsp;
+                            <a href="/categories/AI-%E7%A7%91%E6%99%AE/">AI 科普</a>&nbsp;
                         </li>
                     
                     
@@ -486,15 +485,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/WSL/">WSL</a>&nbsp;
+                        <a href="/tags/AI-Agent/">AI Agent</a>&nbsp;
                     </li>
                 
                     <li>
-                        | <a href="/tags/Linux/">Linux</a>&nbsp;
-                    </li>
-                
-                    <li>
-                        | <a href="/tags/Windows/">Windows</a>&nbsp;
+                        | <a href="/tags/LLM/">LLM</a>&nbsp;
                     </li>
                 
             </ul>
@@ -520,187 +515,168 @@
 
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			<h1 id="WSL-安装与管理"><a href="#WSL-安装与管理" class="headerlink" title="WSL 安装与管理"></a>WSL 安装与管理</h1><blockquote>
-<p>配套笔记：[[Linux 入门实战]]（进系统后怎么干活）、[[WSL开发最佳实战]]（日常开发最佳实践）、[[WSL 命令速查]]（命令速查表）、[[Ubuntu 开发环境配置]]（常用工具配置配置）</p>
+			<h1 id="现在的-AI-发展到什么地步了？豆包？龙虾？OR-MORE？"><a href="#现在的-AI-发展到什么地步了？豆包？龙虾？OR-MORE？" class="headerlink" title="现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？"></a>现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</h1><p>标题党了哈，这篇文章是“<strong>深入不一定深入，浅出一定浅出</strong>”的【浅出】系列第一篇，主要内容是用最通俗易懂的语言聊一下什么是 Agent。</p>
+<p>我用最直接，最不绕弯子的方式告诉你：Agent &#x3D; LLM + Harness。</p>
+<h2 id="什么是-LLM？"><a href="#什么是-LLM？" class="headerlink" title="什么是 LLM？"></a>什么是 LLM？</h2><blockquote>
+<p>LLM （Large Language Model）大语言模型.</p>
 </blockquote>
-<p>这篇只讲 <strong>在 Windows 端（PowerShell &#x2F; CMD）管理 WSL 本身</strong>：怎么装、怎么日常操作、怎么搬到 D 盘。这里所有命令都在 Windows 的终端里敲，不是在 Linux 里面。</p>
-<h2 id="1-概念速览"><a href="#1-概念速览" class="headerlink" title="1 概念速览"></a>1 概念速览</h2><p>先理清几个词，后面所有命令才有意义。</p>
-<ul>
-<li><strong>WSL</strong>：Windows Subsystem for Linux。它<strong>不是虚拟机、也不是双系统</strong>，而是让你在 Windows 上原生跑一个 Linux。装好后能直接用 bash、apt、gcc、python 这些 Linux 工具。</li>
-<li><strong>发行版（Distribution）</strong>：具体的某个 Linux，比如 <code>Ubuntu-24.04</code>。一台电脑可以同时装多个发行版，互不影响。</li>
-<li><strong>默认用户</strong>：进入 WSL 时自动登录的账号。不设置的话默认是 <code>root</code>（最高权限，容易误操作），建议装好后改成普通用户。</li>
-<li><strong><code>.vhdx</code> 虚拟磁盘</strong>：一个发行版的所有文件，实际打包存在 Windows 上的一个 <code>ext4.vhdx</code> 文件里。这就是为什么”迁移 WSL”本质上是搬动这个磁盘文件。</li>
-<li><strong><code>/mnt</code> 挂载</strong>：在 WSL 里，Windows 磁盘被挂在 <code>/mnt/</code> 下。<code>/mnt/d/</code> 就是 Windows 的 D 盘，<code>/mnt/d/code</code> 对应 <code>D:\&lt;path&gt;</code>。</li>
-<li><strong>WSL1 vs WSL2</strong>：现在一律用 <strong>WSL2</strong>（性能更好、兼容性更高）。</li>
-</ul>
+<p>大多数人对 AI 的印象，可能还停留在 <strong>豆包、DeepSeek</strong> 这类工具上——你问它一个问题，它给你一段回答。这种一问一答的交互方式，确实是目前最常见的 AI 使用方式。</p>
+<p>如果你开始用，或者已经在用豆包、DS 了，那么恭喜你，这是所有人学习 AI，接触 AI 的第一步，我也将用豆包这类产品和大家解释什么是 LLM。</p>
+<p>LLM 到底是什么？这里给一个百度百科的解释：</p>
 <blockquote>
-<p>性能提示（官方建议）：用 Linux 工具处理的文件，放在 <strong>WSL 内部</strong>（如 <code>~/project</code>）最快；用 Windows 工具处理的，放在 <strong>Windows 盘</strong>。跨系统访问（在 <code>/mnt/d</code> 里跑 Linux 编译）会明显变慢。</p>
+<p>大语言模型（英语：Large Language Model，简称 LLM）是指使用大量文本数据训练的深度学习模型，使得该模型可以生成自然语言文本或理解语言文本的含义。</p>
 </blockquote>
-<p>（这段话不知道是什么意思来的，直接按照 [[WSL开发最佳实战]]）</p>
-<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2 安装"></a>2 安装</h2><p>按顺序走完六步即可。</p>
-<h3 id="2-1-开启-Windows-功能（前置）"><a href="#2-1-开启-Windows-功能（前置）" class="headerlink" title="2.1 开启 Windows 功能（前置）"></a>2.1 开启 Windows 功能（前置）</h3><p>第一次用 WSL，需要先在系统里打开「适用于 Linux 的 Windows 子系统」和「虚拟机平台」两个功能。</p>
-<p>路径：控制面板 → 程序 → 启用或关闭 Windows 功能，勾选这两项后重启。</p>
-<p>![[Pasted image 20260530092808.png]]</p>
+<p>其实是一个很抽象的东西，但是我们可以这样理解。</p>
+<p>你点开豆包，创建一个新对话，不要打开任何功能，包括联网搜索，记忆等等，然后开始你们的对话。</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[会话1]</span><br><span class="line">你：我是火星人，C罗和梅西谁是球王？</span><br><span class="line">豆包：。。。。</span><br></pre></td></tr></table></figure></div>
+
+<p>这个就是一个 LLM 的调用，它不调用任何工具，包括搜索工具，图片识别工具等等，直接理解你的语言，然后回答你。就像是一个<strong>只会说话和思考</strong>的机器。</p>
+<p>你想在这个对话中继续和豆包聊天：</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[会话1]</span><br><span class="line">你：我是火星人，C罗和梅西谁是球王？</span><br><span class="line">豆包：。。。。</span><br><span class="line">你：我是什么人？</span><br><span class="line">豆包：你是火星人。</span><br></pre></td></tr></table></figure></div>
+
+<p>这个是豆包的反应，但是真正的 LLM 是不会这样反应的，如果你想模拟直接和 LLM 对话，你在问第二个问题的时候就需要创建一个新的对话：</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[会话1]</span><br><span class="line">你：我是火星人，C罗和梅西谁是球王？</span><br><span class="line">豆包：。。。。</span><br><span class="line">[会话2]</span><br><span class="line">你：我是什么人？</span><br><span class="line">豆包：（直接说不知道，或者开始瞎编）</span><br></pre></td></tr></table></figure></div>
+
+<p>是的，LLM 本身是没有记忆的，我们的每一次问题都是孤立的问题，它只会思考你现在说的，不会记得你之前说的任何东西，至于为什么豆包看起来好像有记忆？—— 豆包不是一个单纯的 LLM。</p>
+<p>豆包现在不只是有记忆，还可以做很多事情，联网搜索，生成文档。如果你用过 Claude Code、Codex、或者龙虾，你会发现 AI 甚至可以操控你的电脑，这些能力，并不是大模型（LLM）本身具备的，都是需要额外的“装备”来实现——这就是我们接下来要讲的 Harness。</p>
+<hr>
+<h2 id="什么是-Harness？"><a href="#什么是-Harness？" class="headerlink" title="什么是 Harness？"></a>什么是 Harness？</h2><p>Harness 的英文本意是”缰绳”。你可以这样理解：LLM 是一匹马，你得安上缰绳才能骑。Harness 就是那根缰绳——**它让 LLM 从一个”只能聊天的大脑”变成一个”能干活的 Agent”**。</p>
+<p>Harness 主要包含<strong>三个模块</strong>：</p>
 <ul>
-<li><strong>作用</strong>：打开 WSL 运行所依赖的底层系统组件。</li>
-<li><strong>说明</strong>：新版 Windows 用下面的 <code>wsl --install</code> 通常会自动帮你开启；如果安装报错，再回来手动勾选这一步。</li>
+<li>工具模块</li>
+<li>记忆模块</li>
+<li>规划模块</li>
 </ul>
-<h3 id="2-2-更新-WSL-内核"><a href="#2-2-更新-WSL-内核" class="headerlink" title="2.2 更新 WSL 内核"></a>2.2 更新 WSL 内核</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--update</span></span><br></pre></td></tr></table></figure></div>
-
+<h3 id="工具模块：Agent-的”手”"><a href="#工具模块：Agent-的”手”" class="headerlink" title="工具模块：Agent 的”手”"></a>工具模块：Agent 的”手”</h3><p>工具模块让 Agent 能动手做事。比如你让 AI 帮你提取一张图片里的文字，它就会去调用 OCR 工具来完成。</p>
+<p>工具模块的核心有两个：</p>
 <ul>
-<li><strong>作用</strong>：把 WSL 本体和 Linux 内核更新到最新版。</li>
-<li><strong>何时用</strong>：安装前先跑一次，避免因内核太旧导致发行版装不上。</li>
+<li><strong>Function Call</strong>：这个是 Agent 的元能力，如果一个 AI 工具它有 Function Call 就是一个单纯的 LLM，至少也算是一个建议版本的 Agent；</li>
+<li><strong>MCP（Model Context Protocol）</strong>：一套标准化的工具接口协议，让不同的工具可以统一接入，不需要每个工具都单独适配。</li>
 </ul>
-<h3 id="2-3-把默认版本设为-WSL2"><a href="#2-3-把默认版本设为-WSL2" class="headerlink" title="2.3 把默认版本设为 WSL2"></a>2.3 把默认版本设为 WSL2</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--set-default-version</span> <span class="number">2</span></span><br></pre></td></tr></table></figure></div>
+<h4 id="Function-Call"><a href="#Function-Call" class="headerlink" title="Function Call"></a>Function Call</h4><p>在 Function Call 出现之前，AI 是一个只能说，不会做的工具。Function Call 出现之后 AI 拥有了调用工具的能力。还是举个例子说明：</p>
+<p><strong>Function Call 出现之前：</strong></p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">你：今天星期几？</span><br><span class="line">AI：不好意思，我的记忆只更新到23年。无法回答你的问题。（或者直接瞎编）</span><br></pre></td></tr></table></figure></div>
 
+<p><strong>Function Call 出现之后：</strong></p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">你：今天星期几？</span><br><span class="line">AI：（调用天气查阅工具）今天星期六。</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h5><p>嘿嘿，我们来唠唠 Function Call 是如何实现的，真的不难。</p>
+<p>我想了很久该如何去解释 <code>Function Call</code>，最后决定从函数开始讲。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/function%E6%98%AF%E4%BB%80%E4%B9%88.png"
+                     
+                ></p>
+<p>可以看到，使用函数最重要的一步是：找到<strong>符合需求的函数</strong>，以及<strong>合适的参数</strong>，中间是如何执行的不用管，接着我们就可以拿到想要的结果了。</p>
+<p>所以在 Harness 中，程序员事先将所有工具定义好：</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;tools&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">	  <span class="punctuation">&#123;</span></span><br><span class="line">		  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;function&quot;</span><span class="punctuation">,</span></span><br><span class="line">		  <span class="attr">&quot;function&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">			  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;get_weather&quot;</span><span class="punctuation">,</span></span><br><span class="line">			  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;查询指定城市的天气信息&quot;</span><span class="punctuation">,</span></span><br><span class="line">			  <span class="attr">&quot;parameters&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">				  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;object&quot;</span><span class="punctuation">,</span></span><br><span class="line">				  <span class="attr">&quot;properties&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">					  <span class="attr">&quot;city&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">						  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;string&quot;</span><span class="punctuation">,</span></span><br><span class="line">						  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;城市名称，例如：北京&quot;</span></span><br><span class="line">					  <span class="punctuation">&#125;</span></span><br><span class="line">				  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">				  <span class="attr">&quot;required&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;city&quot;</span><span class="punctuation">]</span></span><br><span class="line">			  <span class="punctuation">&#125;</span></span><br><span class="line">		  <span class="punctuation">&#125;</span></span><br><span class="line">	  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">	  <span class="punctuation">&#123;</span></span><br><span class="line">		  ...</span><br><span class="line">	  <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">你问：&quot;北京今天天气怎么样？&quot;</span><br><span class="line">Harness 把你的问题 + 工具定义一起打包发给 LLM。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>LLM 看到两样东西：</strong></p>
 <ul>
-<li><strong>作用</strong>：之后新装的发行版默认使用 WSL2。</li>
-<li><strong>说明</strong>：只需设一次。<code>2</code> 就是 WSL2，几乎不用 WSL1。</li>
+<li>用户想知道北京的天气</li>
+<li>我有一个 get_weather 函数可以用，它需要一个 city 参数</li>
 </ul>
-<h3 id="2-4-安装发行版"><a href="#2-4-安装发行版" class="headerlink" title="2.4 安装发行版"></a>2.4 安装发行版</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--install</span> <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span> <span class="literal">--location</span> <span class="string">&quot;D:\software\WSL\ubuntu-24&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>LLM 就可以调用它聪明的大脑，判断该使用什么函数，从用户的问题中，选择合适的参数。<strong>接着返回一段计算机能听懂的语言</strong>：</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">	<span class="attr">&quot;tool_call&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">	  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;get_weather&quot;</span><span class="punctuation">,</span></span><br><span class="line">	  <span class="attr">&quot;arguments&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">		<span class="attr">&quot;city&quot;</span><span class="punctuation">:</span> <span class="string">&quot;北京&quot;</span></span><br><span class="line">	  <span class="punctuation">&#125;</span></span><br><span class="line">	<span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
 
-<ul>
-<li><strong>作用</strong>：下载并安装名为 <code>Ubuntu-24.04</code> 的发行版。</li>
-<li><strong>参数</strong>：<ul>
-<li><code>-d Ubuntu-24.04</code>：指定要装的发行版。用 <code>wsl -l -o</code> 可查看官方提供的所有可选发行版。</li>
-<li><code>--location &quot;D:\software\WSL\ubuntu-24&quot;</code>：指定安装到哪个目录（即 <code>.vhdx</code> 存放位置）。<strong>加上这个就能直接装到 D 盘</strong>，省去日后迁移；不加则默认装在 C 盘。</li>
-</ul>
-</li>
-<li><strong>说明</strong>：装完会自动启动该发行版并进入下一步建用户。</li>
-</ul>
-<h4 id="2-4-1-注销发行版"><a href="#2-4-1-注销发行版" class="headerlink" title="2.4.1 注销发行版"></a>2.4.1 注销发行版</h4><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--unregister</span> Ubuntu<span class="literal">-20</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
+<p>Harness 拿到 LLM 返回的指令之后，执行<code>get_weather(&#39;北京&#39;)</code>，得到：</p>
+<div class="code-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">	<span class="attr">&quot;role&quot;</span><span class="punctuation">:</span> <span class="string">&quot;tool&quot;</span><span class="punctuation">,</span></span><br><span class="line">	<span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;北京，晴，25°C&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
 
-<ul>
-<li><strong>作用</strong>：注销</li>
-</ul>
-<h3 id="2-5-创建并设置默认用户"><a href="#2-5-创建并设置默认用户" class="headerlink" title="2.5 创建并设置默认用户"></a>2.5 创建并设置默认用户</h3><p>某些发行版安装后不会自动引导创建用户，需要手动操作。</p>
-<h4 id="2-5-1-以-root-身份进入-WSL"><a href="#2-5-1-以-root-身份进入-WSL" class="headerlink" title="2.5.1 以 root 身份进入 WSL"></a>2.5.1 以 root 身份进入 WSL</h4><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span> <span class="literal">-u</span> root</span><br></pre></td></tr></table></figure></div>
+<p>并且将这个结果返回给 LLM，LLM 最终将这些内容全部组织成一句话，并返回给用户：</p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">北京今天晴天，气温 25°C。</span><br></pre></td></tr></table></figure></div>
 
-<ul>
-<li><strong>作用</strong>：以 root 超级管理员身份进入指定发行版。</li>
-<li><strong>参数</strong>：<ul>
-<li><code>-d Ubuntu-24.04</code>：指定发行版名称。</li>
-<li><code>-u root</code>：以 root 用户身份登录。</li>
-</ul>
-</li>
-</ul>
-<h4 id="2-5-2-创建普通用户"><a href="#2-5-2-创建普通用户" class="headerlink" title="2.5.2 创建普通用户"></a>2.5.2 创建普通用户</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd -m -s /bin/bash 你的用户名</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：创建一个普通用户并自动创建家目录。</li>
-<li><strong>参数</strong>：<ul>
-<li><code>-m</code>：同时创建用户的家目录（<code>/home/用户名</code>）。</li>
-<li><code>-s /bin/bash</code>：指定默认 Shell 为 bash。</li>
-</ul>
-</li>
-</ul>
-<h4 id="2-5-3-设置用户密码"><a href="#2-5-3-设置用户密码" class="headerlink" title="2.5.3 设置用户密码"></a>2.5.3 设置用户密码</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd 你的用户密码</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：为新建用户设置登录密码。</li>
-<li><strong>说明</strong>：输入密码时屏幕不显示任何字符，正常打完回车即可。这个密码就是以后 <code>sudo</code> 要输入的密码。</li>
-</ul>
-<p>接下来会以你刚刚设置的用户身份进入到 WSL，但此时我们还没有添加权限，因此需要切换回超级用户。</p>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i</span><br></pre></td></tr></table></figure></div>
-
-<p>区分提示符：<br>普通用户：<code>$</code><br>root 用户：<code>#</code></p>
-<h4 id="2-5-4-添加-sudo-权限"><a href="#2-5-4-添加-sudo-权限" class="headerlink" title="2.5.4 添加 sudo 权限"></a>2.5.4 添加 sudo 权限</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">usermod -aG <span class="built_in">sudo</span> 你的用户名</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：普通用户没加入 <code>sudo</code> 组、没配置 sudo 规则，就完全无法使用 <code>sudo</code> 命令。</li>
-<li>⚠ 需要在 <code>root</code> 用户下</li>
-<li><strong>参数</strong>：<ul>
-<li><code>-aG sudo</code>：追加到 sudo 组（<code>-a</code> 是追加，<code>-G</code> 指定组）。</li>
-</ul>
-</li>
-</ul>
-<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">getent group <span class="built_in">sudo</span> <span class="comment"># 验证查看</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-5-5-步骤-5：设置为默认登录用户"><a href="#2-5-5-步骤-5：设置为默认登录用户" class="headerlink" title="2.5.5 步骤 5：设置为默认登录用户"></a>2.5.5 步骤 5：设置为默认登录用户</h4><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/wsl.conf</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：打开 WSL 配置文件编辑器。</li>
-<li><strong>说明</strong>：如果文件不存在会新建一个。</li>
-</ul>
-<p>在文件末尾添加（如果本来就是，则不需要再添加）：</p>
-<div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[user]</span></span><br><span class="line"><span class="attr">default</span>=你的用户名</span><br></pre></td></tr></table></figure></div>
-
-<p>输入：<code>i</code>就可以编辑；按下 <code>Esc</code>则是退出编辑<br>保存退出：在非编辑模式下输入<code>:wq</code><br>退出不保存：在非编辑模式下输入<code>:q!</code></p>
-<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">exit # 退出WSL</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="2-5-6-重启-WSL-使配置生效"><a href="#2-5-6-重启-WSL-使配置生效" class="headerlink" title="2.5.6 重启 WSL 使配置生效"></a>2.5.6 重启 WSL 使配置生效</h4><ul>
-<li>在 Windows powershell 中输入</li>
-</ul>
-<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--shutdown</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：彻底关闭 WSL，使配置文件生效。</li>
-<li><strong>说明</strong>：这是最干净的”重启 WSL”方式。</li>
-</ul>
-<h4 id="2-5-7-验证"><a href="#2-5-7-验证" class="headerlink" title="2.5.7 验证"></a>2.5.7 验证</h4><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">-d</span> Ubuntu<span class="literal">-24</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：重新进入 WSL，验证是否以普通用户登录。</li>
-<li><strong>预期结果</strong>：命令行提示符显示你的用户名，不是 <code>root</code>。</li>
-</ul>
-<h3 id="2-6-验证安装"><a href="#2-6-验证安装" class="headerlink" title="2.6 验证安装"></a>2.6 验证安装</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">-l</span> <span class="literal">-v</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：列出已安装的发行版、运行状态、以及是 WSL1 还是 WSL2。</li>
-<li><strong>预期结果</strong>：能看到 <code>Ubuntu-24.04</code>，<code>VERSION</code> 一列是 <code>2</code>，说明装好了。</li>
-</ul>
-<p>如果你做到这一步说明已经安装好了，如果你是按照上面的指令走，想必 <code>ext4.vhdx</code> 已经在你想要的位置了。</p>
-<p>接下来你可以看看：[[WSL 命令速查]]作为了解，日常开发请参考 [[WSL开发最佳实战]]。</p>
-<h2 id="3-迁移到-D-盘"><a href="#3-迁移到-D-盘" class="headerlink" title="3 迁移到 D 盘"></a>3 迁移到 D 盘</h2><p>WSL 默认装在 C 盘，用久了占空间。迁移的本质是：<strong>把发行版导出成一个 <code>.tar</code> 包 → 删掉原来的 → 在 D 盘重新导入</strong>。三步走。</p>
-<blockquote>
-<p>前提：先 <code>wsl --shutdown</code> 关闭所有 WSL，再开始迁移。</p>
-</blockquote>
-<h3 id="3-1-第-1-步-导出为-tar-包"><a href="#3-1-第-1-步-导出为-tar-包" class="headerlink" title="3.1 第 1 步 导出为 tar 包"></a>3.1 第 1 步 导出为 tar 包</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--export</span> Ubuntu<span class="literal">-20</span>.<span class="number">04</span> D:\software\WSL\tar\ubuntu<span class="literal">-20</span>.<span class="number">04</span>.tar</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：把指定发行版的全部内容打包成一个 <code>.tar</code> 文件（备份）。</li>
-<li><strong>参数</strong>：<ul>
-<li><code>Ubuntu-20.04</code>：要导出的发行版名。</li>
-<li><code>D:\software\WSL\tar\ubuntu-20.04.tar</code>：导出文件的保存路径（目录需提前存在）。</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-2-第-2-步-注销原发行版"><a href="#3-2-第-2-步-注销原发行版" class="headerlink" title="3.2 第 2 步 注销原发行版"></a>3.2 第 2 步 注销原发行版</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--unregister</span> Ubuntu<span class="literal">-20</span>.<span class="number">04</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：删除 C 盘上的原发行版，腾出空间。</li>
-<li><strong>说明</strong>：因为第 1 步已经导出备份，这里删掉是安全的。⚠️ 但务必确认上一步的 <code>.tar</code> 已生成成功再执行。</li>
-</ul>
-<h3 id="3-3-第-3-步-导入到-D-盘"><a href="#3-3-第-3-步-导入到-D-盘" class="headerlink" title="3.3 第 3 步 导入到 D 盘"></a>3.3 第 3 步 导入到 D 盘</h3><div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl <span class="literal">--import</span> Ubuntu<span class="literal">-20</span>.<span class="number">04</span> D:\software\WSL\ubuntu D:\software\WSL\tar\ubuntu<span class="literal">-20</span>.<span class="number">04</span>.tar <span class="literal">--version</span> <span class="number">2</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><strong>作用</strong>：用第 1 步的 tar 包，在 D 盘重建发行版。</li>
-<li><strong>参数（三个位置参数，顺序固定）</strong>：<ol>
-<li><code>Ubuntu-20.04</code>：导入后的发行版名（可沿用原名）。</li>
-<li><code>D:\software\WSL\ubuntu</code>：<strong>安装目录</strong>，新的 <code>.vhdx</code> 会放在这里。</li>
-<li><code>D:\software\WSL\tar\ubuntu-20.04.tar</code>：<strong>数据来源</strong>，即第 1 步导出的 tar 包。</li>
+<p><strong>总结一下：</strong></p>
+<ol>
+<li>LLM 和 Harness 各司其职，LLM 负责想（判断使用什么 function 和传什么参数），Harness 负责做。</li>
+<li>Harness 只能理解结构化的语言，LLM 可以理解结构化的语言和自然语言。</li>
 </ol>
+<p><strong>注意：LLM 自己没有执行任何函数，它只是发号施令。</strong></p>
+<h4 id="MCP"><a href="#MCP" class="headerlink" title="MCP"></a>MCP</h4><p>MCP 是一个协议（公认的标准），我们熟悉的协议有 USB 协议。我们先来说说 USB 协议的作用吧。</p>
+<p>如果没有 USB 协议，你想要电脑连接鼠标，你可能需要研究如何接线，或者每一台电脑都提供一个专用的键盘，电脑厂商自己研发协议、接口，这样的后果是，每一个牌子的电脑上连接键盘的接口都不一样，每一牌子的连接线也不一样。它们家的电脑就只能用它们家的键盘。如果我想要买键盘，同一个款式，可能的出几十种规格，不同规则本身没有什么区别，但是如果你买错了，就用不了。为什么？因为插不上啊。</p>
+<p>之前的 Agent 开发遇到的情况差不多也是这样，你需要为每一个工具实现 Function Call（天气，数据库，读取文件…），这会导致，接入一个新的工具成本非常高，你需要为它专门写一个 Function Call。</p>
+<p>直到 Anthropy 发布了 MCP 协议。协议的做法是：我们分为两个角色，一个必须在Agent内（Client），一个由外部提供（Server），Server负责定义工具，Client 只需要问Server有什么工具就行。简单来说，之前Function Call是由Agent实现的，但是现在让数据源去实现，我们Agent成为一个伸手党。</p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 意思是创建一个 MCP 客户端，名字叫: my-ai-app</span></span><br><span class="line">const mcpClient = new Client(&#123; name: <span class="string">&quot;my-ai-app&quot;</span> &#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment"># 连接 MCP Server</span></span><br><span class="line"><span class="keyword">await</span> mcpClient.connect(<span class="string">&quot;http://localhost:3001&quot;</span>);  // 天气 Server</span><br><span class="line"><span class="keyword">await</span> mcpClient.connect(<span class="string">&quot;http://localhost:3002&quot;</span>);  // 数据库 Server</span><br><span class="line"></span><br><span class="line"><span class="comment"># 问 MCP Client：&quot;你有什么工具？&quot;</span></span><br><span class="line">const tools = <span class="keyword">await</span> mcpClient.listTools();</span><br><span class="line"><span class="comment"># MCP Client 自动从各个 Server 拉取工具列表 </span></span><br><span class="line"><span class="comment"># tools = [get_weather, query_orders, send_email, ...]</span></span><br></pre></td></tr></table></figure></div>
+
+<p>这样就方便多啦，如果需要新一个天气tool，也只需要修改 MCP Server。</p>
+<p>MCP协议的终极理想是不再需要写任何工具，所有工具都由MCP server 提供，但现实是很多工具还没有MCP server，所以该自己写还得自己写。</p>
+<h3 id="记忆模块：Agent-的”记性”"><a href="#记忆模块：Agent-的”记性”" class="headerlink" title="记忆模块：Agent 的”记性”"></a>记忆模块：Agent 的”记性”</h3><p>豆包、GPT 这些产品都是有记忆的，但那是因为它们不是纯粹的 LLM。<strong>纯粹的 LLM 是没有任何记忆的</strong>——你跟它说一句，它回一句，然后什么都不记得了。</p>
+<p>如果你有调用过 LLM 的 API 就会发现，它真的什么都不记。那记忆是怎么实现的？原理其实很简单：<strong>你让它记住什么，就把什么东西发给它。</strong></p>
+<p>举个例子：你在一次会话里跟 AI 对话了三次。当你说第四次的时候，框架会把前三次的对话内容和你第四次的话一起打包发给 LLM。LLM 看到的是一整段上下文，所以它”好像”记住了之前的对话。</p>
+<p>记忆还分两种：</p>
 <ul>
-<li><code>--version 2</code>：使用 WSL2。</li>
+<li><strong>短期记忆</strong>：只存在于当前对话，对话结束就没了。</li>
+<li><strong>长期记忆</strong>：跨对话保存，原理类似，也是把历史信息打包发给 LLM。</li>
 </ul>
-</li>
+<p>当然，LLM 每次能接收的内容是有上限的（上下文窗口）。如果超了怎么办？那就得压缩——把内容精简，只保留最关键的信息。</p>
+<h3 id="规划模块：Agent-的”脑子”"><a href="#规划模块：Agent-的”脑子”" class="headerlink" title="规划模块：Agent 的”脑子”"></a>规划模块：Agent 的”脑子”</h3><p>规划模块是 Agent 和普通 LLM 对话最直观的区别。</p>
+<p>举个例子：你跟豆包说——</p>
+<blockquote>
+<p>“帮我写一篇文章。先给我一个初稿，然后审核一遍，审核完了给我优化版本，最后再给我终稿。”</p>
+</blockquote>
+<p>豆包会在一次回复里把初稿、审核意见、优化版、终稿<strong>全部给你</strong>。它没有”分步执行”的概念，你说什么它就一股脑全做了。</p>
+<p>但如果你跟 Claude Code 这样的 AI Agent 说同样的话，它的行为完全不同：</p>
+<ol>
+<li>它先把需求发给 LLM，LLM 写出初稿，返回给你；</li>
+<li>问你：”初稿在这里，有什么修改意见？”</li>
+<li>它把你的反馈和初稿一起发给 LLM，LLM 给出优化版本；</li>
+<li>再问你：”优化版在这里，还有要改的吗？”</li>
+<li>你确认后，LLM 给出终稿。</li>
+</ol>
+<p><strong>一步一步来，每一步都跟你确认。</strong> 这就是规划模块的作用——它让 Agent 不再是一次性输出，而是像一个真正的工作伙伴一样，分步骤、有节奏地完成任务。</p>
+<hr>
+<h2 id="Skill：Agent-的”技能包”"><a href="#Skill：Agent-的”技能包”" class="headerlink" title="Skill：Agent 的”技能包”"></a>Skill：Agent 的”技能包”</h2><p>Skill 是什么？简单说，它就是一个<strong>可以复用的技能包</strong>。</p>
+<p>我们先从最基础的理解开始。一个最简单的 Skill，其实就是一段代码。为什么要发明 Skill 这个东西？原因很简单：如果你反复在用同一段代码、同一个流程，为什么不把它封装起来，下次直接调用呢？</p>
+<p>所以最基础的 Skill 有两种形式：</p>
+<ul>
+<li><strong>一段描述</strong>：告诉 Agent “遇到这种情况你应该怎么做”。</li>
+<li><strong>一套步骤</strong>：Step 1 做什么，Step 2 做什么，Step 3 做什么——写死的流程，Agent 照着走就行。</li>
 </ul>
-<h3 id="3-4-迁移后的两个善后"><a href="#3-4-迁移后的两个善后" class="headerlink" title="3.4 迁移后的两个善后"></a>3.4 迁移后的两个善后</h3><ul>
-<li><strong>默认用户会变回 root</strong>：导入的发行版默认用 root 登录，需要重新设默认用户。</li>
-<li><strong>想确认 vhdx 在哪</strong>：在 Windows 资源管理器里搜索 <code>ext4.vhdx</code> 即可定位某个发行版的实际磁盘文件。</li>
-</ul>
-<h2 id="4-常见坑-FAQ"><a href="#4-常见坑-FAQ" class="headerlink" title="4 常见坑 &amp; FAQ"></a>4 常见坑 &amp; FAQ</h2><ul>
-<li><strong>占位符怎么填</strong>：教程里常见 <code>&lt;DistributionName&gt;</code> &#x2F; <code>&lt;InstallLocation&gt;</code> &#x2F; <code>&lt;ExportFilePath&gt;</code>，分别是「发行版名」「安装目录」「tar 文件路径」。<code>&lt;&gt;</code> 是占位符，实际输入时要连同尖括号一起替换掉。</li>
-<li><strong>VSCode 连 WSL 只能连默认发行版</strong>：VSCode 的 WSL 远程默认连接默认发行版。装了多个时，先 <code>wsl --set-default &lt;名字&gt;</code> 把目标设为默认，再用 VSCode 连。</li>
-<li><strong><code>wsl --unregister</code> 到底删不删文件</strong>：删。它会永久删除该发行版的 <code>.vhdx</code> 和全部内容，迁移&#x2F;卸载前请先 <code>--export</code> 备份。</li>
-<li><strong>路径用哪种斜杠</strong>：在 Windows 终端里写 Windows 路径用反斜杠 <code>\</code>；进了 WSL 内部访问 Windows 盘用 <code>/mnt/d/...</code>。</li>
-</ul>
-<h2 id="5-参考链接"><a href="#5-参考链接" class="headerlink" title="5 参考链接"></a>5 参考链接</h2><ul>
-<li><a class="link"   target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands" >WSL 的基本命令 | Microsoft Learn<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment" >设置 WSL 开发环境 | Microsoft Learn<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/yanbober/article/details/138245581" >建议立刻将 WSL + VSCode 作为你的最强生产力环境 - CSDN<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/580750290" >在 WSL2 root 和普通用户的切换 - 知乎<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
-</ul>
+<p>比如你经常让 AI 帮你写周报，那你就可以把”写周报”封装成一个 Skill：先收集本周工作记录，再按模板整理，最后润色输出。下次你只需要说”帮我写周报”，Agent 就直接调用这个 Skill，不用你每次重新描述流程。</p>
+<p>Anthropic 也为 Claude 实现了专门的 Skill 工具，让 Agent 可以方便地注册和调用这些预定义好的能力。</p>
+<hr>
+<h2 id="Agent-的四种工作模式"><a href="#Agent-的四种工作模式" class="headerlink" title="Agent 的四种工作模式"></a>Agent 的四种工作模式</h2><blockquote>
+<p>🚧 待补充</p>
+</blockquote>
+<hr>
+<h2 id="Workflow：人定流程-vs-AI-定计划"><a href="#Workflow：人定流程-vs-AI-定计划" class="headerlink" title="Workflow：人定流程 vs AI 定计划"></a>Workflow：人定流程 vs AI 定计划</h2><p>讲 Workflow 之前，我们先回顾一下 Agent 的工作模式。</p>
+<p>Agent 模式下，你给 AI 一个任务，AI 自己分析、自己制定计划、自己执行。这是我们在前面讲规划模块时说的——<strong>计划是 AI 定的</strong>。</p>
+<p>Workflow 则相反。它是一个<strong>自动化的过程</strong>，但流程是<strong>人定的</strong>。</p>
+<p>打个比方：你跟 AI 说”每次处理客户投诉，就按这个流程来——第一步记录问题，第二步分类，第三步生成回复模板，第四步发送”。这就是一个 Workflow，AI 不需要自己思考怎么做，照着你定好的步骤执行就行。</p>
+<h3 id="Workflow-vs-Agent-模式：核心区别在哪？"><a href="#Workflow-vs-Agent-模式：核心区别在哪？" class="headerlink" title="Workflow vs Agent 模式：核心区别在哪？"></a>Workflow vs Agent 模式：核心区别在哪？</h3><p><strong>控制权。</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Workflow</th>
+<th>Agent 模式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>谁定计划</td>
+<td>人</td>
+<td>AI</td>
+</tr>
+<tr>
+<td>灵活度</td>
+<td>低，按固定流程走</td>
+<td>高，AI 随机应变</td>
+</tr>
+<tr>
+<td>Token 消耗</td>
+<td>省，不需要反复思考</td>
+<td>费，AI 要不断分析和决策</td>
+</tr>
+<tr>
+<td>产出稳定性</td>
+<td>稳定，同样的流程同样的结果</td>
+<td>不稳定，同样的话问十次可能十个答案</td>
+</tr>
+</tbody></table>
+<p>简单说：<strong>Workflow 像工厂流水线，稳定高效但死板；Agent 模式像自由发挥的艺术家，灵活但不可控。</strong></p>
+<p>实际使用中，两者不是二选一，而是配合使用——用 Workflow 保证核心流程的稳定性，用 Agent 模式处理需要灵活判断的部分。</p>
 
 		</div>
 
@@ -708,18 +684,18 @@
 		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
 			<div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> WSL 安装与管理</li>
+        <li><strong>标题:</strong> 现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</li>
         <li><strong>作者:</strong> LinSing</li>
         <li><strong>创建于
                 :</strong> 2026-05-30 14:27:08</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2026-07-08 09:35:52
+                    :</strong> 2026-07-08 09:49:30
             </li>
         
         <li>
-            <strong>链接:</strong> https://sing-041.github.io/2026/05/30/WSL 安装与管理/
+            <strong>链接:</strong> https://sing-041.github.io/2026/05/30/AI-Agent科普文章-正文/
         </li>
         <li>
             <strong>
@@ -741,15 +717,11 @@
 		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
 			
 			<li class="tag-item mx-0.5">
-				<a href="/tags/WSL/">#WSL</a>&nbsp;
+				<a href="/tags/AI-Agent/">#AI Agent</a>&nbsp;
 			</li>
 			
 			<li class="tag-item mx-0.5">
-				<a href="/tags/Linux/">#Linux</a>&nbsp;
-			</li>
-			
-			<li class="tag-item mx-0.5">
-				<a href="/tags/Windows/">#Windows</a>&nbsp;
+				<a href="/tags/LLM/">#LLM</a>&nbsp;
 			</li>
 			
 		</ul>
@@ -761,12 +733,12 @@
 		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
 			
 			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="prev" rel="prev" href="/2026/05/30/AI-Agent%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0-%E6%AD%A3%E6%96%87/">
+				<a class="prev" rel="prev" href="/2026/05/31/Ubuntu%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">
 					<span class="left arrow-icon flex justify-center items-center">
 						<i class="fa-solid fa-chevron-left"></i>
 					</span>
 					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item truncate max-w-48">现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</span>
+						<span class="post-nav-title-item truncate max-w-48">Ubuntu 开发环境配置：换软件源、安装基础工具、配置版本管理器</span>
 						<span class="post-nav-item">上一篇</span>
 					</span>
 				</a>
@@ -774,9 +746,9 @@
 			
 			
 			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="next" rel="next" href="/2026/05/30/WSL%E5%BC%80%E5%8F%91%E6%9C%80%E4%BD%B3%E5%AE%9E%E6%88%98/">
+				<a class="next" rel="next" href="/2026/05/30/WSL%20%E5%AE%89%E8%A3%85%E4%B8%8E%E7%AE%A1%E7%90%86/">
 					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item truncate max-w-48">在 VSCode 中使用 WSL 进行日常开发的完整指南</span>
+						<span class="post-nav-title-item truncate max-w-48">WSL 安装与管理</span>
 						<span class="post-nav-item">下一篇</span>
 					</span>
 					<span class="right arrow-icon flex justify-center items-center">
@@ -838,8 +810,8 @@
 		<div class="post-toc-wrap">
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
-		<div class="page-title">WSL 安装与管理</div>
-		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#WSL-%E5%AE%89%E8%A3%85%E4%B8%8E%E7%AE%A1%E7%90%86"><span class="nav-text">WSL 安装与管理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%A6%82%E5%BF%B5%E9%80%9F%E8%A7%88"><span class="nav-text">1 概念速览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85"><span class="nav-text">2 安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E5%BC%80%E5%90%AF-Windows-%E5%8A%9F%E8%83%BD%EF%BC%88%E5%89%8D%E7%BD%AE%EF%BC%89"><span class="nav-text">2.1 开启 Windows 功能（前置）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E6%9B%B4%E6%96%B0-WSL-%E5%86%85%E6%A0%B8"><span class="nav-text">2.2 更新 WSL 内核</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E6%8A%8A%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC%E8%AE%BE%E4%B8%BA-WSL2"><span class="nav-text">2.3 把默认版本设为 WSL2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-%E5%AE%89%E8%A3%85%E5%8F%91%E8%A1%8C%E7%89%88"><span class="nav-text">2.4 安装发行版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-5-%E5%88%9B%E5%BB%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E7%94%A8%E6%88%B7"><span class="nav-text">2.5 创建并设置默认用户</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-6-%E9%AA%8C%E8%AF%81%E5%AE%89%E8%A3%85"><span class="nav-text">2.6 验证安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E8%BF%81%E7%A7%BB%E5%88%B0-D-%E7%9B%98"><span class="nav-text">3 迁移到 D 盘</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E7%AC%AC-1-%E6%AD%A5-%E5%AF%BC%E5%87%BA%E4%B8%BA-tar-%E5%8C%85"><span class="nav-text">3.1 第 1 步 导出为 tar 包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E7%AC%AC-2-%E6%AD%A5-%E6%B3%A8%E9%94%80%E5%8E%9F%E5%8F%91%E8%A1%8C%E7%89%88"><span class="nav-text">3.2 第 2 步 注销原发行版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-%E7%AC%AC-3-%E6%AD%A5-%E5%AF%BC%E5%85%A5%E5%88%B0-D-%E7%9B%98"><span class="nav-text">3.3 第 3 步 导入到 D 盘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4-%E8%BF%81%E7%A7%BB%E5%90%8E%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%96%84%E5%90%8E"><span class="nav-text">3.4 迁移后的两个善后</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%B8%B8%E8%A7%81%E5%9D%91-FAQ"><span class="nav-text">4 常见坑 &amp; FAQ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">5 参考链接</span></a></li></ol></li></ol>
+		<div class="page-title">现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%8E%B0%E5%9C%A8%E7%9A%84-AI-%E5%8F%91%E5%B1%95%E5%88%B0%E4%BB%80%E4%B9%88%E5%9C%B0%E6%AD%A5%E4%BA%86%EF%BC%9F%E8%B1%86%E5%8C%85%EF%BC%9F%E9%BE%99%E8%99%BE%EF%BC%9FOR-MORE%EF%BC%9F"><span class="nav-text">现在的 AI 发展到什么地步了？豆包？龙虾？OR MORE？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-LLM%EF%BC%9F"><span class="nav-text">什么是 LLM？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Harness%EF%BC%9F"><span class="nav-text">什么是 Harness？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%A5%E5%85%B7%E6%A8%A1%E5%9D%97%EF%BC%9AAgent-%E7%9A%84%E2%80%9D%E6%89%8B%E2%80%9D"><span class="nav-text">工具模块：Agent 的”手”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%B0%E5%BF%86%E6%A8%A1%E5%9D%97%EF%BC%9AAgent-%E7%9A%84%E2%80%9D%E8%AE%B0%E6%80%A7%E2%80%9D"><span class="nav-text">记忆模块：Agent 的”记性”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%84%E5%88%92%E6%A8%A1%E5%9D%97%EF%BC%9AAgent-%E7%9A%84%E2%80%9D%E8%84%91%E5%AD%90%E2%80%9D"><span class="nav-text">规划模块：Agent 的”脑子”</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Skill%EF%BC%9AAgent-%E7%9A%84%E2%80%9D%E6%8A%80%E8%83%BD%E5%8C%85%E2%80%9D"><span class="nav-text">Skill：Agent 的”技能包”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Agent-%E7%9A%84%E5%9B%9B%E7%A7%8D%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F"><span class="nav-text">Agent 的四种工作模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Workflow%EF%BC%9A%E4%BA%BA%E5%AE%9A%E6%B5%81%E7%A8%8B-vs-AI-%E5%AE%9A%E8%AE%A1%E5%88%92"><span class="nav-text">Workflow：人定流程 vs AI 定计划</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Workflow-vs-Agent-%E6%A8%A1%E5%BC%8F%EF%BC%9A%E6%A0%B8%E5%BF%83%E5%8C%BA%E5%88%AB%E5%9C%A8%E5%93%AA%EF%BC%9F"><span class="nav-text">Workflow vs Agent 模式：核心区别在哪？</span></a></li></ol></li></ol></li></ol>
 
 	</div>
 </div>
