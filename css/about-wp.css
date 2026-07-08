@@ -1,0 +1,289 @@
+/* Warm Professional Style for About Page */
+
+:root {
+  --wp-primary: #A31F34;
+  --wp-warm: #D4A574;
+  --wp-light-warm: #E8D5C4;
+  --wp-dark: #2C3E50;
+  --wp-medium: #5D6D7E;
+  --wp-bg: #FAF6F0;
+  --wp-card-bg: #FFFFFF;
+  --wp-text: #2C3E50;
+  --wp-text-light: #5D6D7E;
+  --wp-border: #E8D5C4;
+  --wp-shadow: rgba(44, 62, 80, 0.08);
+  --wp-shadow-hover: rgba(44, 62, 80, 0.15);
+}
+
+/* Body Background */
+body {
+  background-color: var(--wp-bg);
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--wp-text);
+  line-height: 1.7;
+}
+
+/* Typography */
+.about-page h1 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--wp-dark);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.about-page h2 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--wp-dark);
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.about-page h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--wp-warm), var(--wp-light-warm));
+}
+
+.about-page h3 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--wp-medium);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  color: var(--wp-text-light);
+  margin-bottom: 1rem;
+}
+
+/* Subtitle */
+.about-page .subtitle {
+  font-family: 'Lora', 'Georgia', serif;
+  font-size: 1.25rem;
+  color: var(--wp-medium);
+  font-style: italic;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  border-left: 3px solid var(--wp-warm);
+}
+
+/* Section Styling */
+.about-page section {
+  margin-bottom: 3rem;
+}
+
+.about-page section + section {
+  padding-top: 2rem;
+  border-top: 1px solid var(--wp-border);
+}
+
+/* Content Block Styling */
+.about-page .content-block {
+  background: var(--wp-card-bg);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px var(--wp-shadow);
+  transition: all 0.3s ease;
+}
+
+.about-page .content-block:hover {
+  box-shadow: 0 4px 16px var(--wp-shadow-hover);
+  transform: translateY(-2px);
+}
+
+/* List Styling */
+.about-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-page li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--wp-text-light);
+}
+
+.about-page li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--wp-warm);
+  font-weight: bold;
+}
+
+/* Project Cards */
+.about-page .project {
+  background: var(--wp-card-bg);
+  border: 1px solid var(--wp-border);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.about-page .project:hover {
+  border-color: var(--wp-warm);
+  box-shadow: 0 4px 12px var(--wp-shadow-hover);
+}
+
+.about-page .project-title {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--wp-dark);
+  margin-bottom: 0.5rem;
+}
+
+.about-page .project-tech {
+  color: var(--wp-medium);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-page .project-desc {
+  color: var(--wp-text-light);
+  margin-bottom: 1rem;
+}
+
+.about-page .project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.about-page .project-link {
+  color: var(--wp-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.about-page .project-link:hover {
+  color: var(--wp-warm);
+  text-decoration: underline;
+}
+
+/* Quote Styling */
+.about-page blockquote {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: var(--wp-medium);
+  padding-left: 2rem;
+  border-left: 3px solid var(--wp-warm);
+  margin: 1.5rem 0;
+}
+
+/* Link Styling */
+.about-page a {
+  color: var(--wp-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.about-page a:hover {
+  color: var(--wp-warm);
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.about-page .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: var(--wp-text-light);
+}
+
+.about-page .contact-label {
+  font-weight: 600;
+  margin-right: 0.5rem;
+  color: var(--wp-medium);
+}
+
+/* Last Update */
+.about-page .last-update {
+  text-align: center;
+  color: var(--wp-medium);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--wp-border);
+}
+
+/* Paper Texture Overlay */
+.about-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(212, 165, 116, 0.03) 10px,
+      rgba(212, 165, 116, 0.03) 20px
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.about-page > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-page h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-page h2 {
+    font-size: 2rem;
+  }
+
+  .about-page .content-block,
+  .about-page .project {
+    padding: 1.5rem;
+  }
+
+  .about-page .subtitle {
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-page > * {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.about-page > *:nth-child(n) {
+  animation-delay: calc(var(--index, 1) * 0.1s);
+}
